@@ -188,4 +188,19 @@ public class mockTest {
     }
 
 
+    @Test
+    public void shareNewMethon(){
+        int [] listPage={1,2,3,4,5};
+        for(int i: listPage){
+            System.out.print( i );
+            System.out.println(",");
+            if (i==3){
+                System.out.println("跳出");
+                break;
+            }
+        }
+
+
+    }
+
 }
