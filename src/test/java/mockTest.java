@@ -196,7 +196,7 @@ public class mockTest {
             System.out.println(",");
             if (i==3){
                 System.out.println("跳出");
-                System.out.println("breake");
+                System.out.println("breakde");
 
                 break;
             }
